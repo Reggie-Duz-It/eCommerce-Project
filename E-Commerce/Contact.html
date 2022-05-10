@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="Assets/styles.css" />
+    <link href="Assets/fontawesome-free-6.1.1-web/css/fontawesome.css" type="text/css" rel="stylesheet">
+    <link href="Assets/fontawesome-free-6.1.1-web/css/solid.css" type="text/css" rel="stylesheet">
+    <link href="Assets/fontawesome-free-6.1.1-web/css/brands.css" type="text/css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="Assets/Images/shenron-animal-dragon-reptile-text-transparent-png-2236309.png">
+
+    <style>
+    
+    article {
+    position: absolute;
+    padding: 100px;
+    top: 250px;
+    left: 193px;
+    height: 910px;
+    width: 833px;
+    background-color: #04AA6D;
+    border: 3px solid black;
+}
+
+article h1 {
+    position: absolute;
+    top: 90px;
+    left: 370px;
+    color: black;
+    font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serf;
+
+}
+
+article p {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serf;
+}
+
+     
+    </style>
+</head>
+<body>
+    <header>
+        
+        <img id="headlogo" src="Assets/Images/zchan.png" height="150" width="280" alt="logo" />
+        <img id="pixelslide" src="assets/Images/d4jrskn-fe727634-41a9-4fc7-97c5-c910a9bc8ffc.gif" height="100" width="150" alt="pixel" />
+
+       <img id="item-added" src="assets/Images/480px-+1_ICON.png" height="50" width="60" alt="itemadded" />
+        <span id="sc" style="font-size: 3em; color: Tomato;">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>
+        
+        
+        <nav class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="Products.htmL">Products</a>
+        <a class="active" href="Contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <div id="sidebar1">
+    </div>
+
+    <a href="Products.html"><span id="bck" style="font-size: 4em; color: Tomato;">
+        <i class="fa-solid fa-circle-left"></i>
+      </span></a>
+
+    <div id="sidebar2">
+    </div>
+
+   <article>
+       <h1>Contact Us</h1>
+       <br>
+       <br>
+       <p>For more info, or question please submit your information below and we'll be sure to get back to you</p>
+       <form id="contactform" name="fanForm" onsubmit="return validateForm()" method="post">
+           <label for="fname">First name:</label><br>
+           <input type="text" id="fname" name="fname"><br>
+           <label for="lname">Last name:</label><br>
+           <input type="text" id="lname" name="lname"><br>
+           <label for="phone">Phone number:</label><br>
+           <input type="text" id="phone" name="phone"><br>
+           <label for="email">Email:</label><br>
+           <input type="email" id="email" name="email"><br>
+           <label for="comments">Comments:</label><br>
+           <textarea id="comments" name="comments" rows="15" cols="50"></textarea>
+           <input type="submit" value="Submit">
+
+
+       </form>
+
+       <figure>
+         <img id="dbcast" src="assets/Images/Dragon_Ball_Cast.png" height="400" width="590" alt="cast" />
+       </figure>
+
+</article>
+
+    <footer id="bottom"> 
+       
+            <img id="footerlogo" src="Assets/Images/zchan.png" height="200" width="380" alt="footerlogo" />
+            <p id="reserved">All Rights Reserved</p>
+            <p id="copy">Copyright &copy; 2022 www.zchan.net</p>
+
+        <h3 id="contactfooter">Contact Us</h3>
+        
+        <a href="https://www.facebook.com"><span id="fb" style="font-size: 5em; color: Tomato;">
+            <i class="fa-brands fa-facebook"></i>
+        </span></a>
+
+        <a href="https://www.instagram.com"><span id="ig" style="font-size: 5em; color: Tomato;">
+            <i class="fa-brands fa-instagram"></i>
+        </span></a>
+
+        <a href="https://www.twitter.com"><span id="tw" style="font-size: 5em; color: Tomato;">
+            <i class="fa-brands fa-twitter-square"></i>
+        </span></a>
+
+          
+
+    </footer>
+    
+    <script src="Assets/scripts.js"></script>
+</body>
+</html>
