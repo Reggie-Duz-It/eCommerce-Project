@@ -1,0 +1,416 @@
+@media only screen and (max-width: 790px) and (min-width: 700px) {
+
+    body {
+        max-width: 400px;
+        overflow-x: hidden;
+    }
+    nav {
+        position: absolute;
+        overflow: hidden;
+        background-color: grey;
+        margin: 0px;
+        padding: 0px;
+        left: 238px;
+        top: 150px;
+        border-radius: 13px;
+        height: 50px;
+        width: 738px;
+        border: 3px solid black;
+        z-index: 1;
+    }
+
+    nav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px;
+        display: block;
+        font-size: 17px;
+        width: 172px;
+        font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serf;
+        font-weight: bold;
+    }
+
+    #headlogo {
+        position: absolute;
+        left: 300px;
+    }
+
+    #sc {
+        position: absolute;
+        top: 40px;
+        left: 900px;
+        
+    }
+
+    #slideshow {
+        position: absolute;
+        left: 208px;
+        top: 265px;
+        width: 712px;
+        height: 330px;
+        z-index: 9;
+       
+    }
+
+    #welcomeh1 {
+        position: absolute;
+        font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serf;
+        left: 568px;
+        top: 215px;
+        opacity: 0;
+    }
+
+    #welcomelogo {
+        position: absolute;
+        left: 448px;
+        top: 225px;
+        height: 100px;
+        width: 320px;
+    }
+
+    #welcomeimage {
+        position: absolute;
+        left: 298px;
+        top: 235px;
+        z-index: 1;
+        }
+
+     article {
+            position: absolute;
+            padding: 100px;
+            top: 681px;
+            left: 193px;
+            height: 400px;
+            width: 583px;
+            background-color: #04AA6D;
+            border: 3px solid black;
+        }
+
+        #us {
+            position: absolute;
+            top: 170px;
+            left: 160px;
+        }
+
+        #sidebar1 {
+            position: absolute;
+            width: 210px;
+            height: 1800px;
+            background-color: grey;
+            left: -20px;
+            top: -10px;
+            border: 3px solid black;
+            opacity: 0;
+        }
+        
+        #sidebar2 {
+            position: absolute;
+            left: 1230px;
+            width: 210px;
+            height: 1800px;
+            background-color: grey;
+            top: -10px;
+            border: 3px solid black;
+            opacity: 0;
+            
+        }
+
+        #bottom {
+            position: absolute;
+            width: 780px;
+            height: 338px;
+            top: 1570px;
+            left: 190px;
+            background-color: rgb(20, 20, 53);
+            color: orange;
+        }
+
+        #footerlogo {
+            height: 100px;
+            width: 180px;
+        }
+
+        #copy {
+            position: absolute;
+            left: 20px;
+        }
+
+        #reserved {
+            position: absolute;
+            left: 30px;
+            top: 150px;
+        }
+
+        #fb {
+            position: absolute;
+            top: 80px;
+            left: 450px;
+        }
+        
+        #ig {
+            position: absolute;
+            top: 80px;
+            left: 540px;
+        
+        }
+        
+        #tw {
+           position: absolute;
+           top: 80px;
+           left: 630px;
+        }
+
+        #contactfooter {
+            position: absolute;
+            top: -30px;
+            left: 460px;
+            font-size: 30px;
+            font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serf;
+        }
+
+
+        .grid-container {
+            position: absolute;
+            top: 200px;
+            left: 100px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+
+        .grid-item {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #m1 {
+            position: absolute;
+            font-size: 11px;
+            top: 450px;
+            left: 220px;
+            opacity: 0;
+        }
+       
+        #ratingset1 {
+            position: absolute;
+            top: 480px;
+            left: 270px;
+            opacity: 0;
+        }
+       
+        #m2 {
+           position: absolute;
+           font-size: 11px;
+           top: 450px;
+           left: 450px;
+           opacity: 0;
+       }
+       
+       #ratingset2 {
+           position: absolute;
+           top: 480px;
+           left: 500px;
+           opacity: 0;
+       }
+       
+       
+       #m3 {
+           position: absolute;
+           font-size: 11px;
+           top: 450px;
+           left: 680px;
+           opacity: 0;
+       }
+       
+       #ratingset3 {
+           position: absolute;
+           top: 480px;
+           left: 720px;
+           opacity: 0;
+       }
+       
+       #m4 {
+           position: absolute;
+           font-size: 11px;
+           top: 730px;
+           left: 220px;
+           opacity: 0;
+       }
+       
+       #ratingset4 {
+           position: absolute;
+           top: 760px;
+           left: 270px;
+           opacity: 0;
+       }
+       
+       #m5 {
+           position: absolute;
+           font-size: 11px;
+           top: 730px;
+           left: 450px;
+           opacity: 0;
+       }
+       
+       #ratingset5 {
+           position: absolute;
+           top: 760px;
+           left: 500px;
+           opacity: 0;
+       }
+       
+       #m6 {
+           position: absolute;
+           font-size: 11px;
+           top: 730px;
+           left: 680px;
+           opacity: 0;
+       }
+       
+       #ratingset6 {
+           position: absolute;
+           top: 760px;
+           left: 720px;
+           opacity: 0;
+       }
+       
+       #m7 {
+           position: absolute;
+           font-size: 11px;
+           top: 1000px;
+           left: 220px;
+           opacity: 0;
+       }
+       
+       #ratingset7 {
+           position: absolute;
+           top: 1030px;
+           left: 270px;
+           opacity: 0;
+       }
+       
+       #m8 {
+           position: absolute;
+           font-size: 11px;
+           top: 1000px;
+           left: 450px;
+           opacity: 0;
+       }
+       
+       #ratingset8 {
+           position: absolute;
+           top: 1030px;
+           left: 500px;
+           opacity: 0;
+       }
+       
+       
+       #m9 {
+           position: absolute;
+           font-size: 11px;
+           top: 1000px;
+           left: 680px;
+           opacity: 0;
+       }
+       
+       #ratingset9 {
+           position: absolute;
+           top: 1030px;
+           left: 720px;
+           opacity: 0;
+       }
+       
+       
+       #m10 {
+           position: absolute;
+           font-size: 11px;
+           top: 1280px;
+           left: 220px;
+           opacity: 0;
+       }
+       
+       #ratingset10 {
+           position: absolute;
+           top: 1310px;
+           left: 270px;
+           opacity: 0;
+       }
+       
+       
+       #m11 {
+           position: absolute;
+           font-size: 11px;
+           top: 1280px;
+           left: 450px;
+           opacity: 0;
+       }
+       
+       #ratingset11 {
+           position: absolute;
+           top: 1310px;
+           left: 500px;
+           opacity: 0;
+       }
+       
+       
+       #m12 {
+           position: absolute;
+           font-size: 11px;
+           top: 1280px;
+           left: 680px;
+           opacity: 0;
+       }
+       
+       #ratingset12 {
+           position: absolute;
+           top: 1310px;
+           left: 720px;
+           opacity: 0;
+       }
+
+       #contactform {
+        position: absolute;
+        border: 2px solid white;
+        height: 540px;
+        width: 650px;
+        top: 320px;
+        left: 40px;
+        background-color: tomato;
+    }
+
+    #dbcast {
+        position: absolute;
+        top: 1140px;
+        left: 150px;
+    }
+
+    #pixelslide {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 801px) {
+
+    #sidebar2 {
+        position: absolute;
+        left: 1230px;
+        width: 450px;
+        height: 1800px;
+        background-color: grey;
+        top: -10px;
+        border: 3px solid black;
+        
+    }
+
+    #bottom {
+        position: absolute;
+        width: 1690px;
+        height: 338px;
+        top: 1790px;
+        left: 0px;
+        background-color: rgb(20, 20, 53);
+        color: orange;
+    }
+
+}
